@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.todo_add {
+  display: flex;
+  margin: 10px;
+}
+.todo_add input {
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.todo_add input:focus {
+  outline: none;
+}
+.todo_list {
+  display: flex;
+  flex-direction: column;
+  background: #4b4b4b;
+  
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.todo_list div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo_actions {
+  display: flex;
+  justify-content: space-between;
+}
+.todo_actions button {
+  padding: 3px;
+  font-size: 10px;
+  cursor: pointer;
+  margin: 2px;
+}
